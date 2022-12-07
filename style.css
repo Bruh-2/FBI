@@ -1,0 +1,35 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+
+
+.header {
+  height: 100px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.links {
+  width: 300pxs;
+  color: blanchedalmond;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.main, .most-wanted, .about, .contacts {
+  margin-right: 40px;
+  list-style: none;
+}
+
+.navigation {
+}
