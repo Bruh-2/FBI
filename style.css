@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color:white;
 }
 
 .logo {
@@ -18,9 +19,9 @@
   height: 100px;
 }
 
+
+
 .links {
-  width: 300pxs;
-  color: blanchedalmond;
   display: flex;
   justify-content:space-between;
   align-items: center;
@@ -31,5 +32,43 @@
   list-style: none;
 }
 
-.navigation {
+a {
+  text-decoration: underline;
+  color: blanchedalmond;
+  cursor: pointer;
+}
+
+body {
+  background: url("img/main_img.jpg") no-repeat center;
+}
+
+.main_fbi {
+  height: 700px;
+}
+
+.login, .password {
+  color:bisque;
+
+}
+
+input {
+  background-color: transparent;
+  color:bisque;
+}
+
+.button:hover {
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  background-color: rgb(237, 202, 159);
+  border: 100px;
+  border-radius: 15px;
+}
+
+.container {
+ 
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  
 }
