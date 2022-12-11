@@ -1,0 +1,88 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+
+.header {
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .links {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .main, .most-wanted, .about, .contacts {
+    margin-right: 40px;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+
+  .wrapper-content {
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .title {
+    text-align: center;
+    margin:10px;
+  }
+
+  .about_us {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    width: 800px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.what1, .how1, .history1{
+    color: blue;
+}
+
+.image1, .image2, .image3  {
+    width: 230px;
+    height: 150px;
+
+}
+
+.parent-what, .parent-how, .parent-history {
+    display:inline-block
+   
+}
+
+.inv , .how2 , .history2 {
+    overflow: visible;
+    width: 230px;
+
+}
+
+.squares-info {
+    display: flex;
+    justify-content: center;
+}
+
+
+.what, .how, .beginning {
+    margin: 10px;
+list-style: none;
+}
