@@ -29,6 +29,29 @@
     list-style: none;
   }
 
+  .about {
+    text-decoration: underline;
+    color: blanchedalmond;
+  }
+
+  .main:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+
+  .most-wanted:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+
+  .contacts:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+
   a {
     text-decoration: underline;
     color: blanchedalmond;
@@ -85,4 +108,29 @@
 .what, .how, .beginning {
     margin: 10px;
 list-style: none;
+}
+
+.image1, .image2, .image3 {
+  width: 250px;
+  
+}
+
+.one, .two, .three {
+  border: solid 1px blanchedalmond;
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  list-style: none;
+
+}
+
+.inner-boxes {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+strong{
+  color: blue;
 }
