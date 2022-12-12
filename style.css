@@ -56,6 +56,11 @@ input {
   color:bisque;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
 .button:hover {
   width: 100px;
   height: 35px;
@@ -66,30 +71,27 @@ input {
 }
 
 .container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+  position: absolute;
+  top: 542px;
+  left: 543px;
 }
 
-.main {
-  text-decoration: underline;
-  color: blanchedalmond;
-}
+  .login {
+    display: flex;
+  }
 
-.most-wanted:hover {
-  text-decoration: underline;
-  color: blanchedalmond;
+.main_link {
+  text-decoration: none;
+  color: white;
   cursor: pointer;
 }
 
-.about:hover {
+.active_link {
   text-decoration: underline;
   color: blanchedalmond;
-  cursor: pointer;
 }
 
-.contacts:hover {
+.main_link:hover {
   text-decoration: underline;
   color: blanchedalmond;
-  cursor: pointer;
 }

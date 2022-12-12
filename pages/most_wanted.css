@@ -225,3 +225,18 @@
 
   }
 
+.main_link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.active_link {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+
+.main_link:hover {
+  text-decoration: underline;
+  color: blanchedalmond;
+}

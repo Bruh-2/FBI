@@ -29,28 +29,6 @@
     list-style: none;
   }
 
-  .about {
-    text-decoration: underline;
-    color: blanchedalmond;
-  }
-
-  .main:hover {
-    text-decoration: underline;
-    color: blanchedalmond;
-    cursor: pointer;
-  }
-
-  .most-wanted:hover {
-    text-decoration: underline;
-    color: blanchedalmond;
-    cursor: pointer;
-  }
-
-  .contacts:hover {
-    text-decoration: underline;
-    color: blanchedalmond;
-    cursor: pointer;
-  }
 
   a {
     text-decoration: underline;
@@ -133,4 +111,20 @@ list-style: none;
 
 strong{
   color: blue;
+}
+
+.main_link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.active_link {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+
+.main_link:hover {
+  text-decoration: underline;
+  color: blanchedalmond;
 }

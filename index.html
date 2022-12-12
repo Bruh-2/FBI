@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="header">
-      <div>
-        <a href="index.html">
-          <img class="logo" src="./img/FBI_logo.svg" alt="FBI_logo" />
-        </a>
-      </div>
-      <nav class="navigation">
-        <ul class="links">
-          <li class="main">
-            <a class="header_nav_link active_link" href="index.html"></a>Main
-          </li>
-          <li class="most-wanted">
-            <a class="most-wanted1" href="most_wanted.html"></a> Most wanted
-          </li>
-          <li class="about"><a class="about1" href="about.html"></a> About</li>
-          <li class="contacts">
-            <a class="contacts1" href="contacts.html"></a> Contacts
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <main class="main_fbi">
-      <div class="container">
-        <label class="login" for="login">Login</label>
-        <input type="text" placeholder="Enter Login" name="login" required />
-        <label class="password" for="password">Password</label>
-        <input
-          type="password"
-          placeholder="Enter Password"
-          name="psw"
-          required
-        />
-        <button class="button">Log in</button>
-      </div>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div>
+      <a href="index.html">
+        <img class="logo" src="./img/FBI_logo.svg" alt="FBI_logo" />
+      </a>
+    </div>
+    <nav class="navigation">
+      <ul class="links">
+        <li class="main">
+          <a class="main1 main_link active_link" href="/index.html">Main</a>
+        </li>
+        <li class="most-wanted">
+          <a class="most-wanted1 main_link" href="./pages/most_wanted.html">Most wanted</a>
+        </li>
+        <li class="about"><a class="about1 main_link" href="/pages/about.html">About</a></li>
+        <li class="contacts">
+          <a class="contacts1 main_link" href="/pages/contacts.html">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main_fbi">
+    <div class="container">
+
+      <form action="">
+        <div class="login">
+          <label class="login2" for="login">Login</label>
+          <input type="text" placeholder="Enter Login" name="login" required />
+        </div>
+
+        <div>
+          <label class="password" for="password">Password</label>
+          <input type="password" placeholder="Enter Password" name="psw" required />
+
+        </div>
+        <button class="button" type="submit">Log in</button>
+
+      </form>
+
+    </div>
+  </main>
+</body>
+
 </html>
