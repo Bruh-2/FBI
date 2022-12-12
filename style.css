@@ -66,9 +66,30 @@ input {
 }
 
 .container {
- 
   display: flex;
-  flex-direction: column;
-  margin-right: 100px;
-  
+  flex-flow: column;
+  align-items: center;
+}
+
+.main {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+
+.most-wanted:hover {
+  text-decoration: underline;
+  color: blanchedalmond;
+  cursor: pointer;
+}
+
+.about:hover {
+  text-decoration: underline;
+  color: blanchedalmond;
+  cursor: pointer;
+}
+
+.contacts:hover {
+  text-decoration: underline;
+  color: blanchedalmond;
+  cursor: pointer;
 }
