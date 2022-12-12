@@ -1,0 +1,227 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+
+
+.header {
+  height: 100px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.links {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.main, .most-wanted, .about, .contacts {
+  margin-right: 40px;
+  list-style: none;
+}
+
+.most-wanted {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+
+.main:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+
+  .about:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+
+  .contacts:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+
+  .burbon, .joker, .cannibal, .baldy, .quicksilver, .thieves, .russian, .john, .noseless, .cat, .bob, .wretch{
+    width: 300px;
+  }
+
+  .lorem-brown {
+    color: brown;
+  }
+
+  .title {
+    color: antiquewhite;
+    background-color: blueviolet;
+    text-align: center;
+  }
+
+  .wrapper-content {
+    background-color: #cacaf8;
+    width: 100vw;
+  }
+
+  .one, .two, .three, .six, .eleven  {
+    border: solid 1px black;
+    width: 300px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
+  .one:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .two:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .three:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .four:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .five:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .six:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .seven:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .eight:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .nine:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .ten:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .eleven:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .twelve:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color:blueviolet;
+  }
+
+  .inner-boxes {
+    display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+  }
+
+  .four  {
+    border: solid 1px black;
+    width: 300px;
+    height: 239.5px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
+  .five {
+    border: solid 1px black;
+    width: 300px;
+    height: 360px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
+  .seven {
+    border: solid 1px black;
+    width: 300px;
+    height: 358.5px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
+  .eight {
+    border: solid 1px black;
+    width: 300px;
+    height: 358.5px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
+  .nine {
+    border: solid 1px black;
+    width: 300px;
+    height: 484px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
+  .ten {
+    border: solid 1px black;
+    width: 300px;
+    height: 484px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
+  .twelve {
+    border: solid 1px black;
+    width: 300px;
+    height: 484px;
+    margin: 10px;
+    list-style: none;
+
+  }
+
