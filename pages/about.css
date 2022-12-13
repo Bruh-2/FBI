@@ -3,16 +3,6 @@
     padding:0;
 }
 
-.header {
-    height: 100px;
-    width: 100vw;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color:white;
-  }
-
   .footer {
     height: 100px;
     width: 100vw;
@@ -35,23 +25,7 @@
     height: 100px;
   }
 
-  .links {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-  }
-
-  .main, .most-wanted, .about, .contacts {
-    margin-right: 40px;
-    list-style: none;
-  }
-
-
-  a {
-    text-decoration: underline;
-    color: blanchedalmond;
-    cursor: pointer;
-  }
+ 
 
   .wrapper-content {
     background-color: blanchedalmond;
@@ -130,18 +104,7 @@ strong{
   color: blue;
 }
 
-.main_link {
-  text-decoration: none;
-  color: white;
+.main_link1:hover {
   cursor: pointer;
-}
-
-.active_link {
-  text-decoration: underline;
-  color: blanchedalmond;
-}
-
-.main_link:hover {
-  text-decoration: underline;
-  color: blanchedalmond;
+  transform: scale(1.5);
 }

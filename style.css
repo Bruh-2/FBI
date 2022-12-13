@@ -40,6 +40,7 @@ a {
 
 body {
   background: url("img/main_img.jpg") no-repeat center;
+  
 }
 
 .main_fbi {
@@ -56,9 +57,11 @@ input {
   color:bisque;
 }
 
+
 .button {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
