@@ -38,13 +38,11 @@ a {
   cursor: pointer;
 }
 
-body {
-  background: url("img/main_img.jpg") no-repeat center;
-  
-}
+
 
 .main_fbi {
   height: 700px;
+  background: url("img/main_img.jpg") no-repeat center;
 }
 
 .login, .password {
@@ -62,6 +60,11 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: bisque;
+  margin:10px auto;
 }
 
 .button:hover {
@@ -75,12 +78,25 @@ input {
 
 .container {
   position: absolute;
-  top: 542px;
+  top: 610px;
   left: 543px;
 }
 
-  .login {
-    display: flex;
+
+
+.password{
+  margin-right: 48px;
+  margin-bottom:10px; 
+  
+}
+
+.login{
+  margin: 0 0 10px 0 ;
+}
+
+  .login2 {
+    margin-right: 71px;
+    
   }
 
 .main_link {
@@ -98,3 +114,4 @@ input {
   text-decoration: underline;
   color: blanchedalmond;
 }
+

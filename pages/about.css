@@ -29,7 +29,7 @@
 
   .wrapper-content {
     background-color: blanchedalmond;
-    height: 73vh;
+    height: 700px;
     width: 100vw;
   }
 
@@ -71,17 +71,6 @@
 .squares-info {
     display: flex;
     justify-content: center;
-}
-
-
-.what, .how, .beginning {
-    margin: 10px;
-list-style: none;
-}
-
-.image1, .image2, .image3 {
-  width: 250px;
-  
 }
 
 .one, .two, .three {

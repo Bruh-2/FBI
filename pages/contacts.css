@@ -1,1 +1,39 @@
-        
+*{ 
+    margin:0;
+    padding:0;
+  }
+
+  .h1{
+    text-align: center;
+  }
+
+ .wrapper-content1
+ {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+ }
+
+/* .bob{
+   margin: 0 auto;
+} */
+
+
+.wrapper-content2 {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.field-set {
+    width: 200px;
+    margin: 0 auto;
+}
