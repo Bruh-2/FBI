@@ -9,31 +9,71 @@
 
  .wrapper-content1
  {
-    background-color: red;
-    width: 100vw;
+    background-color: bisque;
     height: 100vh;
  }
 
-/* .bob{
-   margin: 0 auto;
-} */
+
 
 
 .wrapper-content2 {
-    width: 500px;
+    
     margin: 0 auto;
 
 }
 
 .form {
-    width: 600px;
+    
     margin: 0 auto; 
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .field-set {
     width: 200px;
     margin: 0 auto;
+}
+
+.login-field, .psw-field, .area{
+    background-color: #f0baa6;
+}
+
+.name-field {
+    margin-bottom: 20px;
+}
+
+.email-field{
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 100px;
+    height: 35px;
+    background-color:  #f2a74f;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background-color: rgb(220, 126, 11);
+}
+
+.main-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-icon:hover{
+    background-color: aquamarine;
+    transform: scale(1.5);
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
 }

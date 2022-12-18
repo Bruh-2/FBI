@@ -38,17 +38,29 @@
         <div class="wrapper-content2">
             <h1 class="h1">Contact us</h1>
             <form class="form" action="">
-                <div class="">
-                    <label class="" for="login">Login</label>
-                    <input class="" type="text" placeholder="Enter Login" name="login" required />
+                <div class="name-field">
+                    <label class="name" for="name">Name</label>
+                    <input class="login-field" type="text"  name="login" required />
                 </div>
 
-                <div class="">
-                    <label class="" for="password">Password</label>
-                    <input class="" type="password" placeholder="Enter Password" name="psw" required />
+                <div class="email-field">
+                    <label class="email" for="email">Email</label>
+                    <input class="psw-field" type="password"  name="psw" required />
+
 
                 </div>
-                <button class="button" type="submit">Log in</button>
+                
+
+                <div>
+                    <textarea class="area" name="blank" id="" cols="30" rows="10"></textarea>
+                
+                </div>
+                
+country:<select name="choices" id="country">
+    <option value="1">Georgia</option>
+    <option value="2">USA</option>
+    <option value="3">Turkey</option>
+</select>
 
             </form>
 
@@ -72,8 +84,45 @@
         </div>
 
         
+        <button class="button" type="submit">Submit</button>
+
+
+        <ul class="links">
+            <li class="main main-icon">
+              <a class="main1 main_link " href="https://www.instagram.com/fbi/?hl=ru" target="_blank"><img class="insta-logo main_link2" src="/img/Instagram.svg" alt="insta"></a>
+            </li>
+            <li class="most-wanted main-icon">
+              <a class="most-wanted1 main_link " href="https://ru-ru.facebook.com/FBI/" target="_blank"><img class="facebook-logo main_link2" src="/img/facebook.png" alt="facebook"> </a> 
+            </li>
+            <li class="about main-icon"><a class="twitter" href="https://twitter.com/FBI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="twitter-logo main_link2" src="/img/twitter.png" alt="twitter"></a></li>
+            <li class="contacts main-icon">
+              <a class="contacts1 main_link" href="https://www.youtube.com/fbi" target="_blank"><img class="youtube-logo main_link2" src="/img/youtube.png" alt="youtube"></a>
+            </li>
+          </ul>
+
 
     </main>
+
+    <footer class="footer"> 
+        <div>
+          <a href="/index.html">
+            <img class="logo" src="/img/FBI_logo.svg" alt="FBI_logo" />
+          </a>
+        </div>
+  
+          <ul class="links">
+            <li class="main">
+              <a class="main1 main_link " href="https://www.instagram.com/fbi/?hl=ru" target="_blank"><img class="insta-logo main_link1" src="/img/Instagram.svg" alt="insta"></a>
+            </li>
+            <li class="most-wanted">
+              <a class="most-wanted1 main_link " href="https://ru-ru.facebook.com/FBI/" target="_blank"><img class="facebook-logo main_link1" src="/img/facebook.png" alt="facebook"> </a> 
+            </li>
+            <li class="about"><a class="twitter" href="https://twitter.com/FBI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="twitter-logo main_link1" src="/img/twitter.png" alt="twitter"></a></li>
+            <li class="contacts">
+              <a class="contacts1 main_link" href="https://www.youtube.com/fbi" target="_blank"><img class="youtube-logo main_link1" src="/img/youtube.png" alt="youtube"></a>
+            </li>
+          </ul>
+      </footer>
 </body>
 
 </html>
